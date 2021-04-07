@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* --------------------------------------- */
+
+.f_head {
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+.logo img {
+    float: left;
+}
+
+.logo h1 {
+    float: left;
+    color: #3ca2a2;
+    font-size: 26px;
+    padding: 20px 15px;
+}
+
+.logo span {
+    float: right;
+    color: #ca0711;
+    font-size: 26px;
+    padding: 20px 0px;
+}
+
+
+/* --------------------------------------- */
+
+.header {
+    background: #c10a11;
+}
+
+.head_menu {
+    /* padding: 10px 0px; */
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 0px 14px;
+}
+
+.menu ul li:first-child {
+    background: #f18d26;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+
+/* ----banner part start----- */
+
+.banner {
+    background: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.banner_cont {
+    padding: 100px 0px;
+}
+
+.banner_cont h2 {
+    color: #215a6d;
+    font-size: 36px;
+}
+
+.banner_cont h1 {
+    color: #215a6d;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.banner_cont p {
+    color: #215a6d;
+    font-size: 15px;
+    font-weight: 400;
+    width: 280px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.banner_cont a {
+    color: #fff;
+    background: #92c7a3;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 20px;
+    border-radius: 30px;
+}
+
+
+/* Hospital pic section */
+
+.hospital {
+    padding: 50px 0px 80px 0px;
+    overflow: hidden;
+}
+
+.single_hosItem {
+    text-align: center;
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+}
+
+.single_hosItem:last-child {
+    margin-right: 0px;
+}
+
+.single_hosItem h3 {
+    color: #3ca2a2;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.single_hosItem p {
+    color: #3ca2a2;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+.arrow_text i {
+    font-size: 11px;
+    border: 2px solid red;
+    border-radius: 50%;
+    color: #c10a11;
+    padding: 2px;
+}
+
+.arrow_text a {
+    color: #92c7a3;
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+
+/* Notice Bord section */
+
+.notice {
+    background: #dfece6;
+}
+
+.notice_sec {
+    padding: 30px 0px;
+    overflow: hidden;
+}
+
+.notice_bord {
+    width: 570px;
+    float: left;
+    margin-right: 30px;
+}
+
+.notice_bord h2 {
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.hr_style {
+    position: relative;
+}
+
+.hr_style hr {
+    background: #fff;
+    height: 1px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.hr_style hr::before {
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    content: '';
+    background: #ae1010;
+    left: 0px;
+    top: 0px;
+}
+
+.link_item {
+    overflow: hidden;
+}
+
+.link_item ul li {
+    /* padding: 15px 60px 15px 15px; */
+    background: #fff;
+    border-bottom: 1px solid #3ca2a2;
+    overflow: hidden;
+}
+
+.link_item ul li:last-child {
+    border: none;
+}
+
+.link_item ul li a {
+    color: #3ca2a2;
+    font-weight: 700;
+    float: left;
+    padding: 19px 0px 19px 20px;
+}
+
+.link_item ul li i {
+    float: right;
+    text-align: right!important;
+    color: #fff;
+    font-size: 30px;
+    background: #bf0a11;
+    padding: 15px 25px;
+}
+
+.notice_text {
+    margin-top: 20px;
+}
+
+.notice_text i {
+    font-size: 8px;
+    border: 2px solid red;
+    border-radius: 50%;
+    color: #c10a11;
+    padding: 2px;
+}
+
+.notice_text a {
+    color: #bf0a11;
+    font-size: 14px;
+    padding-left: 4px;
+    font-weight: 700;
+}
+
+.feature_vedio {
+    width: 570px;
+    float: left;
+}
+
+.feature_vedio h2 {
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.vedio video {
+    border: none;
+    padding: 10px;
+    background: #fff;
+}
+
+
+/* ews medical photo design */
+
+.medical_sec {
+    overflow: hidden;
+    padding: 60px 0px;
+}
+
+.single_medical {
+    float: left;
+    width: 370px;
+    margin-right: 30px;
+}
+
+.single_medical:last-child {
+    margin-right: 0px;
+}
+
+.single_medical h2 {
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.single_medical .hr_style {
+    position: relative;
+}
+
+.single_medical .hr_style hr {
+    background: #eaeaea;
+    height: 1px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.single_medical .hr_style hr::before {
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    content: '';
+    background: #ae1010;
+    left: 0px;
+    top: 0px;
+}
+
+.events_decs h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3ca2a2;
+    padding-bottom: 10px;
+}
+
+.events_decs p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #215a6d;
+    padding-bottom: 30px;
+    line-height: 1.6;
+}
+
+.single_medical hr {
+    margin-bottom: 30px;
+}
+
+.events_text {
+    margin-top: 20px;
+}
+
+.events_text i {
+    font-size: 8px;
+    border: 2px solid red;
+    border-radius: 50%;
+    color: #c10a11;
+    padding: 2px;
+}
+
+.events_text a {
+    color: #215a6d;
+    font-size: 16px;
+    padding-left: 4px;
+    font-weight: 700;
+}
+
+.medical_menu ul li {
+    padding-bottom: 18px;
+}
+
+.medical_menu ul li i {
+    color: #bf0a11;
+    padding-right: 10px;
+}
+
+.medical_menu ul li a {
+    color: #215a6d;
+}
+
+.img_gallary img {
+    padding-bottom: 36px;
+    padding-right: 25px;
+}
+
+
+/* ------doctors part section------ */
+
+.doctors {
+    padding-top: 30px;
+    padding-bottom: 85px;
+    overflow: hidden;
+}
+
+.doctors h2 {
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.doctors .hr_style {
+    position: relative;
+}
+
+.doctors .hr_style hr {
+    background: #eaeaea;
+    height: 1px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.doctors .hr_style hr::before {
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    content: '';
+    background: #ae1010;
+    left: 0px;
+    top: 0px;
+}
+
+.single_doctor {
+    float: left;
+    width: 370px;
+    margin-right: 30px;
+}
+
+.single_doctor:last-child {
+    margin-right: 0px;
+}
+
+.single_doctor h3 {
+    font-size: 18px;
+    color: #3ca2a2;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+.single_doctor p {
+    font-size: 12px;
+    color: #878787;
+    font-weight: 400;
+    padding: 3px 0px;
+}
+
+.single_doctor span {
+    font-size: 12px;
+    color: #cf0511;
+    font-weight: 400;
+}
+
+
+/* -----footer sention---- */
+
+.footer {
+    background: #222222;
+}
+
+.footer_sec {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    overflow: hidden;
+}
+
+.foot_logo {
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.foot_logo img {
+    float: left;
+}
+
+.foot_logo h1 {
+    float: left;
+    color: #3ca2a2;
+    font-size: 24px;
+    padding: 20px 15px;
+}
+
+.single_foot {
+    float: left;
+    width: 270px;
+    margin-right: 30px;
+}
+
+.single_foot:last-child {
+    margin-right: 0px;
+}
+
+.single_foot h3 {
+    color: #3ca2a2;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 17px;
+}
+
+.foot_menu ul li {
+    padding-bottom: 8px;
+}
+
+.foot_menu ul li i {
+    color: #c3181e;
+    padding-right: 3px;
+    font-size: 14px;
+}
+
+.foot_menu ul li a {
+    color: #c6ded9;
+    font-size: 12px;
+}
+
+
+/* ------last part------- */
+
+.last {
+    background: #cf0511;
+}
+
+.last_sec {
+    padding: 12px 0px;
+    text-align: center;
+}
+
+.last_sec span {
+    color: #c6ded9;
+    font-size: 13px;
+    text-align: center;
+}
